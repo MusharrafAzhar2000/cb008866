@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Meta tags for the page -->
+        <title> 
+           Buy now
+        </title>
+        <link rel="stylesheet" type="text/css" href="styles/mainstyle.css">  
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">  
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="manifest.json">
+        <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#0f1f45">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <meta name="msapplication-TileColor" content="#0f1f45">
+        <meta name="msapplication-config" content="images/browserconfig.xml">
+        <meta name="theme-color" content="#0f1f45"> <!--  linking the style sheet -->
+
+  </head>
+  <body>
+     <header class="mobilenav"> <!-- This is navigation for mobile, it is divided between two devices like this because it easier to style it that way and mobile navigation has a totally different look from the desktop site-->
+          <div class="sec1">
+             <img src="images/newlogo1.webp" alt="Site logo" class="msitelogo"> <!-- Site logo in mobile site-->
+    
+          </div>
+          <div class="sec2">
+            <div class="mnavbuttons1"><a href="homepage.html"><img class="navimg" src="images/homenav.webp" alt="home logo"></a></div><!-- This image will direct the user to home page -->
+            <div class="mnavbuttons1"><a href="types.html"><img class="navimg" src="images/typesnav.webp" alt="types of tea logo"></a></div><!-- This image will direct the user to types of tea page -->
+            <div class="mnavbuttons1"><a href="Manufacturers.html"><img class="navimg" src="images/manunav.webp" alt="Manufactuer logo"></a></div><!-- This will direct the user to manufactuerers page -->
+            <div class="mnavbuttons1"><a href="contact.html"><img class="navimg" src="images/contactnav.webp" alt="contact logo"></a></div><!-- This image will direct the user to contacts page -->
+            <div class="mnavbuttons1"><a href="buy.html"><img class="navimg" src="images/buynav.webp" alt="buynow logo"></a></div><!-- This image will direct the user to buynow page -->
+    
+          </div>
+       </header>
+    
+    
+    
+       
+       <header class="desknav"><!-- This is navigation for desktop, it is devided between two devices like this it is easier to style it that way -->
+          <img class="dsitelogo" src="images/newlogo1.jpg" alt="logo"><!-- Site logo in desktop -->
+    <nav>
+         <ul class="navigation_links">
+             <li><a href="homepage.html">Home</a></li>
+             <li><a href="types.html">Types Of Tea</a></li>
+             <li><a href="Manufacturers.html">Manufacturers</a></li>
+             <li><a href="contact.html">Contact Us</a></li>
+         </ul>
+    </nav>
+            <button id="buynowbutton" type="button">Buy Now</button>  
+    </header>
+   <div class="container5"><!-- This div tag contains all the contents of buy now page -->
+      <div class="B1"><!-- A div tag containing a paragraph and order favourite button-->
+                                 <h2>You got a Favourite?</h2>
+                                              <p>Ordering your Favourite tea from your Favourite Manufacturer is easy now.
+                                                  just click the order Favourite button below. If you don't have a Favourite after creating a order in
+                                                 in "Take your pick" section click the "Add to Favourite" button.
+                                              </p>
+                                                    <button id="ofavourite" class="buybutton" type="button">Order Favourite</button>
+                                              <p> <b>Note : After Ordering Favourite Order click the Add to Order Button to add your favourite order to 
+                                                     overall order. You Can't Customize Your Current Order after clicking order favourite button,
+                                                          If you Want to Make
+                                                       a New Order Click the Button Below. </b>
+                                             </p>
+                                                    <button id="CustomO" class="buybutton" type="button">Make a New Order</button>    
+            
+
+
+
+
+                <div class="buy1"><!-- This div tag contains  the form inside buy now page-->
+                              <h2>Take your Pick</h2>
+                     <form id="Teaform">
+                                       <div class="radiob1"><!-- This div tag contains radio buttons which will allow user to pick their desired Tea Manufacturer -->
+                   
+                                                     <label class="labelq">Choose the Brand:</label><br>
+                                            <table id="formtable">     
+                                                   <tr> <td>   <input type="radio" id="Manufacturer1" name="seller" value="Dilmah">
+                                                                 <label for="Manufacturer1" class="labeln1">Dilmah</label></td>
+                                                        <td>  <input type="radio" id="Manufacturer2" name="seller" value="jones">
+                                                                 <label for="Manufacturer2" class="labeln1">jones</label></td></tr>
+                                                   <tr> <td>   <input type="radio" id="Manufacturer3" name="seller" value="George Steuart">
+                                                                 <label for="Manufacturer3" class="labeln1">George Steuart</label></td>
+                                                        <td>   <input type="radio" id="Manufacturer4" name="seller" value="Malwatte valley plantations">
+                                                                 <label for="Manufacturer4" class="labeln1">Malwatte valley plantations</label></td></tr>
+                                                  <tr>  <td>   <input type="radio" id="Manufacturer5" name="seller" value="Prestige Ceylon teas">
+                                                                 <label for="Manufacturer5" class="labeln1">Prestige Ceylon teas</label></td>
+                                                        <td>   <input type="radio" id="Manufacturer6" name="seller" value="Empire teas">
+                                                                 <label for="Manufacturer6" class="labeln1">Empire teas</label></td></tr>
+                                          </table>
+                                                   <br>
+          
+                                       </div>
+   
+                                     <!-- This div tag contains radio buttons which will allow user to pick how they like their tea packed -->
+      
+                                                <label class="labelq">How do you like your Tea Packaged:</label><br>
+                                           <table class="radiob2">
+                                                <tr>  <td><input type="radio" id="packing1" name="packing" value="Tins" checked>
+                                                            <label for="packing1" class="labeln1">Tins</label></td>
+                                                      <td><input type="radio" id="packing2" name="packing" value="Tins">
+                                                            <label for="packing2" class="labeln1">Bags</label></td>
+                                                      <td><input type="radio" id="packing3" name="packing" value="Tins">
+                                                            <label for="packing3" class="labeln1">Paper Pouches</label></td></tr>
+                                           </table>
+                                               <br>
+                                      <!-- This div tag contains radio buttons which will allow user to pick their tea pack's size -->
+                                 <label class="labelq">Pick a size:</label><br>
+                                          <table class="radiob2">
+                                               <tr>  <td><input type="radio" id="size1" name="size" value="Small">
+                                                                <label for="size1" class="labeln1">Small</label></td>
+                                                     <td><input type="radio" id="size2" name="size" value="Medium" checked>
+                                                                <label for="size2" class="labeln1">Medium</label></td>
+                                                     <td> <input type="radio" id="size3" name="size" value="Large">
+                                                                <label for="size3" class="labeln1">Large</label></td></tr>
+                                         </table>
+                                             <br>
+                              <div class="checkb1"><!-- This div tag contains check boxes which will allow user to pick extra goods if they want -->
+                                <label class="labelq">Pick Extras If you want:</label>
+                                     <div class="checkboxb">
+                                                         <input type="checkbox" id="extras1" name="extras1" value="Mug">
+                                                              <label for="extras1"> Mug</label><br>
+                                                         <input type="checkbox" id="extras2" name="extras2" value="Silver Pin">
+                                                              <label for="extras2"> Silver Pin</label><br>
+                                                         <input type="checkbox" id="extras3" name="extras3" value="Wooden Souvenier">
+                                                              <label for="extras3"> Wooden Souvenier</label>
+                                   </div>
+                              </div>
+                          <br><br>
+                  </form>
+                               <div class="butbuttonsdiv">
+                                         <button class="buybutton" id="AddObutton" type="button">Add to Order</button><!-- This button will allow user to add on order to the overall order list-->
+                                         <button class="buybutton" id="favouritebutton" type="button">Add to Favourites</button>
+                              </div><!-- This button will allow user to add a current order as their favourite -->
+   
+
+            </div>
+                      <div class="Buy2">
+                             <h2>Your Loyalty</h2>
+            
+                              <p>You will be Awarded Loyalty points based on your Overall Order. If the number of items in Your overall order
+                                       exceeds 4 you will be awarded 20 loyalty points per order.</p>
+                                <p>  <b>Note: Your loyalty points Won't be calculated unless you make the custum reservation using PLACE ORDER button</b>
+                                </p>
+          
+                                        <button id = "loyalb" class="buybutton" type="button"> Check Loyalty</button> <!-- This button will allow user to check their loyalty points-->
+                      </div>
+     </div>
+      <div class="B2"><!-- This div tag contains current and overall orders-->
+            <div class="Current">
+                                   <h2>Your Current Order</h2>
+                       <table>
+                           <tr>
+                                     <th>Manufacturer</th>  
+                                     <th>Size</th>
+                                     <th>Packaging</th>
+                                     <th>Extras</th><!-- This table contains current order-->
+                           </tr>
+                            <tr>
+                                           <td id="currentproduct"></td>
+                                           <td id="currentsize">Medium</td>
+                                           <td id="currentpack">Tins</td>
+                                           <td id="currentextras"><span id="e1"></span><br>
+                                               <span id="e2"></span><br>
+                                               <span id="e3"></span><br>
+                                          </td>
+                             </tr>
+                        </table>
+                                <span id="currentpay">Current Cost(LKR) : 0</span>
+      
+
+
+
+            </div>
+            <div class="Overall">
+                      <h2>Your Overall Order</h2>
+                             <table id="overalltable">
+                                   <tr>                       <!-- This table contains overall order-->
+                                         <th>Manufacturer</th>
+                                         <th>Size</th>
+                                         <th>Packaging</th>
+                                         <th>Extras</th>
+                                         <th>Cost</th>
+                                   </tr>
+                                    <tbody id="overalltableR">
+                                    </tbody>
+                               </table>
+
+                                   <span id="fullpay">Overall Cost(LKR) : 0</span> <br> <!-- This span tag shows the overall cost-->
+                                     <button id="placeorder" class="buybutton" type="button">Place Order</button><!-- This button will allow user to place their order-->
+
+
+            </div>
+      </div>
+   </div>
+   
+   <div class="footer"><!-- This div tag contains footer of the site-->
+     <div class="fitem1"><a href="https://www.facebook.com/"><img class="social" src="images/fb1.webp" alt="Join us on Facebook"></a><!-- social media links tagged inside photos-->
+                         <a href="https://twitter.com/"><img class="social" src="images/twitter2.webp" alt="Join us on twitter"></a>
+                         <a href="https://www.instagram.com/"><img class="social" src="images/insta.webp" alt="Join us on Instagram"></a>
+                         <a href="https://lk.linkedin.com/"><img class="social" src="images/linkedin.webp" alt="Join us on Linkedin"></a>
+  
+                         
+     </div>
+     <div class="fitem2"><br>
+                <span>Take a look at Our Manufacturers</span><br>
+                <a href="https://www.dilmahtea.com/"><img class="Mn" src="images/dilmah.webp" alt="Dilmah logo"></a><!-- manufacturer site website links tagged inside photos-->
+                <a href="https://gsteas.lk/"><img class="Mn" src="images/gs.webp" alt="George Steart Logo"></a>
+                <a href="http://jafferjee.com/"><img class="Mn" src="images/jj.webp" alt="Jafferjee logo"></a>
+                <a href="http://www.empireteas.com/"><img class="Mn" src="images/Empire.webp" alt="Empire tea logo"></a>
+     </div>
+     <div class="fitem3">
+                <img src="images/newlogo2.webp" alt="footer logo"><!-- sitelogo -->
+               <p class="nn"> Name : Musharraf Azhar<br>
+                              Address:312,paper Street,colombo-13<br>
+                              Phone:0712428364 / 0113748324</p>
+  
+     </div>
+     <div class="fitem4">
+        <span>All the images in this Site is Aquired from lybate,Dilmah,Jafferjee and sons,Empire Teas,Finlays,lakpura,rawpixel,wixlogomaker sites</span>
+     </div>
+   </div>
+   <script src="scripts/simple.js"></script>
+   <script src="scripts/main.js"></script>
+     </body>
+   
+   
+  
+  
+  </html> 

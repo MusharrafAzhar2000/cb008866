@@ -1,0 +1,1006 @@
+/*----------------------------Mobile Designs------------------------------------------------------------------------*/
+
+/*----------------------------------------Navigation bar in mobile--------------------------------------------------*/
+.desknav{display: none;}
+
+.sec1{width: 100%;
+      height: 40%;
+      background-color:  rgb(15, 31, 69)}
+
+.msitelogo{ width: 30%;
+            height: auto;
+            margin-left: 35%;
+            margin-right: 35%;}
+
+.sec2{ display: grid;
+       grid-template-columns: auto auto auto auto auto;
+       grid-template-rows: auto;
+            }
+.mnavbuttons1{background-color:  rgb(28, 68, 148);
+               border: 2px rgb(39, 87, 184) solid;}
+
+
+.mnavbuttons1  .navimg{width: auto;
+                       height: auto;}
+
+/*--------------------------------------Homepage--------------------------------------------------------------------*/
+
+
+.container1{                                            
+    background: url(../images/bg2.webp);
+    background-size: 100% auto;
+    background-repeat: repeat;
+    padding: 10px;
+    border-left: rgb(15, 36, 77) solid 5px;
+    border-right: rgb(15, 36, 77) solid 5px;
+}
+
+.container1 > div{                                      /*Homepage content*/
+    margin: 10px;
+    background-color:rgba(33, 61, 136, 0.89);
+    color: wheat;
+    padding-left: 10%;
+    border: rgb(19, 50, 107) solid 5px;
+    border-radius: 50px;
+    padding-right: 10%;
+    
+}
+h1{font-size: 2em;                                     
+   font-family: sans-serif;
+   text-align: center;}
+
+h2{font-size: 1.5em;
+    font-family: sans-serif;
+    text-align: center;}
+
+p{font-size: 1em;
+  padding-top: 30px;
+  text-align: justify;
+  line-height: 1.4;
+  text-indent: 10px;}
+
+.hp1 > img {width: 100%;                                /*About us image*/
+            height: auto;
+            margin-top: 5%;}
+ 
+
+.hp2 > img {width: 100%;                                /*Why people drink Tea image*/
+              height: auto;} 
+
+.hp3 ul {font-size: 1em;
+         list-style-image: url(../images/liicon2.webp);
+         list-style-position: outside; 
+          }                               /*unordered list in health benefits of tea*/
+.hp3 > img { width: 100%;                                 /*image in health benefits of tea*/
+             height: auto;}
+ul > li {line-height: 1.6;}                               /*list items of unordered list in health benefits of tea*/ 
+
+.hp4 ol {font-size: 1em;
+        list-style-type: upper-roman;}     
+                                                   /* ordered list in Why S.L.T.V*/
+.hp4 > img {  width: 100%;
+             height: auto;}
+ol > li {line-height: 1.6;}                             /* list items of ordered list*/
+
+.hp5 img { width: 100%;                               /*image in History of Sri Lankan Tea*/
+           height: auto;}
+
+
+
+/*------------------------------------------------Types of tea-------------------------------------------------------------*/
+.container2{                                               /*types of tea*/
+    background: url(../images/bg2.webp);
+    background-size: 100% auto;
+    background-repeat: repeat;
+    padding: 10px;
+    border-left: rgb(15, 36, 77) solid 5px;
+    border-right: rgb(15, 36, 77) solid 5px;
+}
+
+
+.container2  > .T1 {                                           /*Grid items in types of tea*/
+    margin: 10px;
+    background-color:rgba(33, 61, 136, 0.89);
+    color: wheat;
+    padding-left: 5%;
+    border: rgb(19, 50, 107) solid 5px;
+    border-radius: 50px;
+    padding-right: 5%;
+}
+
+.container2  > .T2 {                                           /*Grid items in types of tea*/
+    margin: 10px;
+    background-color:rgba(33, 61, 136, 0.89);
+    color: wheat;
+    padding-left: 10%;
+    border: rgb(19, 50, 107) solid 5px;
+    border-radius: 50px;
+    padding-right: 10%;
+}
+
+
+ .T1img {width: 100%;                                       /*images in Main Categories of tea*/
+         height: auto;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         margin-top: 3%;
+         margin-bottom: 3%;}
+
+
+ .T1 > ul {margin-right: 10%;}        
+
+.T1 > ul > li {font-size: 1em; 
+                list-style: none;                           /*list items of Main categories of tea*/
+                margin-top: 2%;
+                display: block;
+                text-align: center;}
+
+.T2 {padding-left: 10%;                                    /*White,greem,black,oolong tea content containers*/
+     padding-right: 10%;}
+.teahealth{width: 100%;
+           height: auto;                                  /*images in white,green,oolong,black tea containers*/
+           margin-top: 2%;
+           height: auto;}
+
+ 
+ .T3 { border: hidden;
+       background-color: rgba(33, 61, 136, 0.89);
+       width: 100%;
+       padding: 0;}
+                                   /*table container in types of tea container*/
+
+
+#teaTable{width: auto;
+          border: 1px solid rgba(23, 9, 100, 0.767);}
+
+#teaTable .mainh {background-color: rgb(28, 120, 163);
+                  height: 25px;
+                  color: white;}
+
+ #teaTable  .subh { background-color: rgb(52, 89, 124);}
+ #teaTable .tfoot {font-weight: 500;
+                   color: wheat;}
+                 
+  #teaTable td {font-size: 1em;
+                color: white;
+                border: 1px solid rgba(7, 2, 36, 0.767);
+                border-collapse: collapse;
+                background-color:rgba(33, 61, 136, 0.89);
+               }
+                 
+
+
+
+/*------------------------------------------Manufacturer page--------------------------------------------------*/
+.container3{
+    background-color:rgba(49, 57, 82, 0.8);
+    padding: 10px;
+    background: url(../images/bg2.webp);
+    background-size: 100% auto;
+    background-repeat: repeat;
+    border-left: rgb(15, 36, 77) solid 5px;
+    border-right: rgb(15, 36, 77) solid 5px;
+}
+.M1 > img{margin-left: 10%;
+          padding-top: 5%;
+           width: 35%;}   
+.container3 > div{  background-color: rgba(33, 61, 136, 0.89);
+                    color: wheat;
+                    border: rgb(19, 50, 107) solid 5px;
+                    border-radius: 50px;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                 }
+                
+
+.M2  .MI {width: 50%;
+          height: auto;
+          margin-left: 25%;
+          margin-top: 3%;}
+
+.M2  .MI2 {display: none;}      
+
+         
+.manulink{ color:  rgb(163, 150, 28);
+           display: block;
+           text-align: center;
+           margin-left: auto;
+           margin-right: auto;}
+.imgcontainer{display: none;}
+
+.M2 >  button {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+                    font-weight: 300;
+                    font-size: 1em;
+                    width: 80%;
+                   margin-bottom: 3%;
+                   margin-left: 10%;
+                   color:  rgba(23, 9, 100, 0.767);
+                   text-decoration: none;
+                   padding: 4px 10px;
+                   background-color:rgb(37, 127, 163);
+                  border: none;
+                  border-radius: 50px;
+    }
+
+.MobileI{display: block;
+         width: 80%;
+         margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;}
+
+
+ /*-----------------------------------------Contact us--------------------------------------------------------*/
+ .container4{
+    background: url(../images/bg2.webp);
+    background-size: 100% auto;
+    background-repeat: repeat;  
+    border-left: rgb(15, 36, 77) solid 5px;
+    border-right: rgb(15, 36, 77) solid 5px;         /*Contact us Content*/
+}
+
+.C1{width: 90%;                                         /*Contact us paragraph Section*/
+    background-color:rgba(33, 61, 136, 0.89);
+    line-height: 1.6;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: wheat;
+    border: rgb(19, 50, 107) solid 5px;
+    border-radius: 50px;}
+
+.C2{width:100%;                                               /*Contact us Table section*/
+    margin-top: 5%;
+  }
+
+.C2 > table {                                               /*table in contact us*/
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+                 /*table in both types of tea and contact us*/
+.mh {background-color: rgb(8, 32, 54);
+    color: white;}                              /*table header in contact us*/
+.C2 table th{font-size: larger;}
+.C2 table tr{text-align: center;
+            font-size: 0.8em;}
+.subh{background-color: rgb(28, 120, 163);}
+
+.C2 table td {line-height: 20px;
+              font-size: 1em;
+              color: wheat;
+              background-color: rgba(33, 61, 136, 0.89);
+              padding: 0;
+              text-align: center;}
+
+.tr:nth-child(even) {background-color: rgba(18, 35, 80, 0.295);}
+
+/*----------------------------------------------Buynow page----------------------------------------------------------------------------*/
+.container5{background-color: rgba(49, 57, 82, 0.8);
+            padding: 5px;
+            background: url(../images/bg2.webp);
+            background-size: auto;
+            background-repeat: repeat;
+            border-left: rgb(15, 36, 77) solid 10px;
+            border-right: rgb(15, 36, 77) solid 10px;}
+
+.container5 > div{  background-color:rgba(33, 61, 136, 0.89); 
+                    border: rgb(19, 50, 107) solid 5px;
+                    border-radius: 50px;
+                    color: wheat; }
+
+
+.labelq {font-size: 1.2em;}
+
+.radiob1{margin-bottom: 3px;}
+
+#formtable{border:1px solid black;
+        border-collapse: collapse;
+           width: 100%;}
+                    
+#formtable td {height: 50px;
+                border: 5px solid rgb(73, 92, 145); 
+                width: 50%;}
+                    
+                    
+.buy1 {margin-bottom: 10px;}
+
+.buy1  input {margin-left: 0;}
+
+.buy1  .labeln1{font-size: 1em;
+                line-height: 1.6;}
+                    
+                    
+                    
+                    
+.checkboxb {font-size: 1em;
+            padding-left: 40%;
+           line-height: 1.6;}
+
+
+                    
+
+.buybutton{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+           font-weight: 300;
+           font-size: 1.3em;
+           width: 60%;
+           margin-left: 20%;
+           color:  rgba(23, 9, 100, 0.767);
+           margin-top: 5px;
+           text-decoration: none;
+           padding: 4px 15px;  
+           background-color:rgb(37, 127, 163);
+           margin-bottom: 20px;
+           border: none;
+           border-radius: 50px;
+           }
+                    
+
+
+
+.radiob2{border: none !important;
+         width: 99%;}
+                    
+.radiob2 td{border: none;
+            width: 33%;
+            text-justify: auto;
+            }
+                    
+.radiob2 td label{font-size: 1em;}
+
+.B2{width: 100%;}
+                    
+ .B2 > .Current {width: 100%;
+                 height: 20%;}
+                    
+.B2 table{width: 100%;
+          border: 1px solid black;}
+
+.B2 table td{border: 1px solid black;
+             font-size: 0.6em;
+             color: thistle;
+             background-color: rgb(15, 31, 69);
+             }
+                     
+.B2 table th{height: 20px;
+             color: steelblue;
+             background-color: rgb(28, 68, 148);
+             font-size: 0.8em;}
+                    
+#currentproduct{display: none;}
+#currentsize{display: none;}
+#currentpack{display: none;}
+#currentextras{display: none;}
+                    
+                    
+#overalltable{margin-bottom: 5%;
+              width: 100%;
+              text-align: center;
+              font-size: 1em;}
+
+#overalltable > td{width: 20%;}
+
+#overalltable > tr{ font-size: 1em;}
+                    
+                    
+#fullpay{display: inline;}
+#currentpay{display: inline;}
+                    
+                    
+                     
+.butbuttonsdiv{display: inline; }
+
+.butbuttonsdiv > .buybutton{margin-left: 15%; }
+                    
+                    
+
+
+
+
+/*---------------------------------------------------mobile footer----------------------------------------------------*/
+
+.footer{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+}
+.fitem1{background-color:rgb(15, 31, 69);}
+.social{width: 35%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 2%;}
+
+.fitem2{background-color: rgb(15, 31, 69);}
+.fitem2 > span{font-size: 3vw;
+               color: steelblue; 
+               text-transform: uppercase;
+               margin-left: 20%;
+               margin-top: 2%;}
+        
+.fitem2 > a >img{margin-left: 4%;
+                  padding-top: 5%;
+                  width: 20%;}    
+                   
+.fitem3{background-color:rgb(15, 31, 69)}
+  
+.fitem3 > img{padding-left: 10%;
+              width: 20%; 
+              height: auto;
+              margin-top: 5%;} 
+                  
+ .fitem3 > .nn{color: steelblue;
+               font-size: 2vw;
+               float: right;
+               margin-right: 20%;}
+
+ .fitem4{  padding-left: 15%;
+           font-size: 2vw;
+           color: steelblue;
+           background-color:rgb(15, 31, 69);}  
+      
+
+
+
+ /*----------------------------------------------desktop designs-----------------------------------------------------------*/
+
+
+
+@media only screen and (min-width: 1200px){   
+     
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+       /*-----------------------------------Navigation bar in desktop--------------------------------------------------*/
+
+.mobilenav {display: none;}
+.desknav {                                                 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    background-color: rgb(15, 31, 69);
+    flex-wrap: nowrap;
+}
+.navigation_links li, a, button {                        /* navigation link links, button */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: steelblue;
+    text-decoration: none;}
+
+
+.navigation_links{
+    list-style: none;
+}
+.navigation_links li{
+   display: inline-block;
+   padding: 0px 30px;
+     transition: 0.3s ease ;
+}
+
+.navigation_links li a {
+    transition: 0.3s ease ;
+}
+.navigation_links li a:hover {
+    color: white;
+    background-color: rgb(15, 31, 69);
+}
+
+#buynowbutton{font-family: 'Times New Roman', Times, serif;      /*buy now button*/ 
+              font-weight: 500;
+              font-size: 25px;
+              color: white;
+              text-decoration: none;
+              padding: 9px 25px;
+              background-color:rgb(37, 127, 163);
+              border: none;
+              border-radius: 50px;
+              cursor: pointer;
+              transition: 0.3s ease ;
+             }
+#buynowbutton:hover{
+             background-color: white;
+              color: rgb(37, 127, 163);
+}
+
+ /*-------------------------------------------------------------- homepage---------------------------------------------------------*/
+
+ 
+
+ .container1{                                            
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+    background: url(../images/bg2.webp);
+    background-size: 100% auto;
+    background-repeat: repeat;
+    padding: 40px;
+    border-left: rgb(15, 36, 77) solid 10px;
+    border-right: rgb(15, 36, 77) solid 10px;
+}
+.container1 > div{                                      /*Homepage content*/
+    margin: 10px;
+    background-color:rgba(33, 61, 136, 0.89);
+    color: wheat;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: rgb(19, 50, 107) solid 5px;
+    border-radius: 50px;
+    
+}
+h1{font-size: 4em;                                     
+   font-family: sans-serif;
+   text-align: center;}
+h2{font-size: 3em;
+    font-family: sans-serif;
+    text-align: center;}
+p{  text-indent: 50px;
+    font-size: 1.5em;
+    padding-top: 30px;
+    text-align: justify;
+    line-height: 1.6;}
+
+.hp1 {                                                    /*About us*/
+      grid-column-start: 1;
+      grid-column-end: 3;
+     }
+  .hp1 > img {width: 100%;                                /*About us image*/
+              height: auto;
+              }
+ 
+.hp2 {                                                   /*Why people drink Tea*/
+       grid-column-start: 1;
+       grid-column-end: 3;
+}
+  .hp2 > img {width: 80%;                                /*Why people drink Tea image*/
+              height: auto;
+              margin-left: 10%;
+              margin-right: 10%; } 
+
+.hp3 ul {font-size: 1.5em;
+         list-style-image: url(../images/liicon2.webp);
+         list-style-position: inside;   }   
+                                             /*unordered list in health benefits of tea*/
+.hp3 > img { width: 100%;                                 /*image in health benefits of tea*/
+             height: auto;}
+ul > li {line-height: 1.6;}                               /*list items of unordered list in health benefits of tea*/ 
+
+.hp4 ol {font-size: 1.5em;
+         list-style-type: upper-roman;}                              /* ordered list in Why S.L.T.V*/
+.hp4 > img { width: 100%;
+             height: auto;}
+ol > li {line-height: 1.6;}                             /* list items of ordered list*/
+
+.hp5 {  grid-column-start: 1;                                               /* History of Sri Lankan Tea */  
+          grid-column-end: 3;}
+
+.hp5 img { width: 60%;                               /*image in History of Sri Lankan Tea*/
+           height: auto;
+           margin-left: 20%;
+           margin-right: 20%;}
+
+
+ /*---------------------------------------------- Types of tea page-------------------------------------------------------------- */
+
+.container2{                                               /*Grid in types of tea*/
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto ;
+    grid-gap: 10px;
+    background: url(../images/bg2.webp);
+    background-size: 100% auto;
+    background-repeat: repeat;
+    padding: 40px;
+    border-left: rgb(15, 36, 77) solid 10px;
+    border-right: rgb(15, 36, 77) solid 10px;
+}
+
+.container2 > div{                                           /*Grid items in types of tea*/
+    margin: 10px;
+    background-color:rgba(33, 61, 136, 0.89);
+    color: wheat;
+    border: rgb(19, 50, 107) solid 5px;
+    border-radius: 50px;
+   
+    
+}
+.T1 {                                                       /*Main Categories of tea*/
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 80px;
+    padding-right: 80px;
+ }
+
+ .T1img {width: 50%;                                       /*images in Main Categories of tea*/
+         height: auto;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         margin-top: 3%;
+         margin-bottom: 3%;}
+
+
+.T1 > ul > li {font-size: 2.5em;                            /*list items of Main categories of tea*/
+                list-style: none;
+                margin-top: 2%;
+                display: block;
+                text-align: center;
+                }
+
+.T2 {padding-left: 10%;                                    /*White,greem,black,oolong tea content containers*/
+     padding-right: 10%;}
+.teahealth{width: 100%;
+           height: auto;                                  /*images in white,green,oolong,black tea containers*/
+           margin-top: 2%;
+           height: auto;}
+    
+.T3 {
+    grid-column-start: 1;                                 /*table container in types of tea container*/
+    grid-column-end: 3;
+}
+
+#teaTable {width: 80%;                                   /*table in types of tea container*/
+           margin-left: 10%;}
+
+
+#teaTable tr:hover {background-color: rgb(28, 120, 163);}
+             
+
+#teaTable  .mainh {background-color: rgb(8, 32, 54);
+               height: 100px;
+               color: white;}
+
+#teaTable  .subh { background-color: rgb(52, 89, 124);}
+#teaTable .tfoot {font-weight: 500;}
+
+#teaTable td {font-size: 1.3em;
+              border: 5px solid rgba(23, 9, 100, 0.767);
+              }
+
+/*----------------------------------------------------Manufacturers page------------------------------------------------------------*/
+.container3{
+    display: grid;                                         /*Manufacturer grid*/
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    background: url(../images/bg2.webp);
+    background-size: 100% auto;
+    background-repeat: repeat;
+    padding: 40px;
+    border-left: rgb(15, 36, 77) solid 10px;
+    border-right: rgb(15, 36, 77) solid 10px;
+}
+.M1 > img{margin-left: 4%;
+          padding-top: 5%;
+           width: 20%;}   
+.container3 > div{                                          /*Grid items in manufacturer*/
+    background-color:rgba(33, 61, 136, 0.89);
+    color: wheat;
+    border: rgb(19, 50, 107) solid 5px;
+    border-radius: 50px;
+}
+
+.M2  .MI {width: 20%;
+          margin-left: 40%;
+          margin-top: 3%;}
+
+.imgcontainer {position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+          }
+          
+         .imgcontainer .MI2 {width: 80%;
+                              height: auto;
+                              display: block;
+                              margin-right: auto;
+                              margin-bottom: 10px;
+                              margin-left: auto;
+               }
+          
+          .overlay {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color: rgba(37, 127, 163, 0.8);
+            overflow: hidden;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            height: 0;
+            transition: .5s ease;
+
+          }
+          
+          .imgcontainer:hover .overlay {
+            bottom: 0;
+            height: 100%;
+          }
+          
+          .text {
+            white-space: nowrap; 
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+
+           
+           
+.manulink{ color:  rgb(163, 150, 28);
+           transition: 0.3s ease;
+           display: block;
+           text-align: center;
+           margin-left: auto;
+           margin-right: auto;}
+
+.manulink:hover{color: white;
+                text-decoration: underline;}
+
+.MobileI{display: none;}
+
+.M2 >  button {width: 60%;
+               height: auto;
+               display: block;
+               margin-left: auto;
+               margin-right: auto;   
+                font-size: 1.5em;
+               }
+/*-------------------------------------------------------Contact us page---------------------------------------------------------------*/
+.container4{
+    background: url(../images/bg2.webp);
+    background-size: 100% auto;
+    background-repeat: repeat;  
+    border-left: rgb(15, 36, 77) solid 10px;
+    border-right: rgb(15, 36, 77) solid 10px;         /*Contact us Content*/
+}
+.C1{width: 90%;
+    margin-left: 5%;    
+    padding-top: 0%;                                      /*Contact us paragraph Section*/
+    background-color:rgba(33, 61, 136, 0.89);
+    color: wheat;
+    border: rgb(19, 50, 107) solid 5px;
+    border-radius: 50px;
+    line-height: 1.6;}
+
+
+.C2{width: 60%;                                               /*Contact us Table section*/
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color:rgba(42, 35, 105, 0.89);
+    color: wheat;
+    overflow-x: auto;}
+
+#contactTable {                                               /*table in contact us*/
+    width: 100%;
+} 
+
+table,th,td {border:rgb(19, 50, 107) solid 5px;
+             border-collapse: collapse;
+            }
+
+
+#contactTable .mh {background-color: rgb(8, 32, 54);
+                   color: white;}                              /*table header in contact us*/
+#contactTable th{font-size: larger;}
+#contactTable tr{height: 150px;
+                  width: auto;}
+
+#contactTable tr:hover {background-color: rgb(28, 120, 163);}
+
+#contactTable td {line-height: 1.6;
+                  font-size: 1.5em;
+                  padding: 0;
+                  text-align: center;}
+
+
+
+tr:nth-child(even) {background-color: rgba(4, 8, 19, 0.295);}
+
+/*------------------------------------------------Buynow page----------------------------------------------------------*/
+
+.container5{ 
+     display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    background: url(../images/bg2.webp);
+    background-size: auto;
+    background-repeat: repeat;
+    padding: 40px;
+    border-left: rgb(15, 36, 77) solid 10px;
+    border-right: rgb(15, 36, 77) solid 10px;
+}
+.container5 > div{
+    background-color:rgba(33, 61, 136, 0.89);
+    border: rgb(19, 50, 107) solid 5px;
+    padding: 10px;
+    border-radius: 50px;
+    color: wheat;
+}
+
+.labelq {font-size: 1.5em;}
+.radiob1{margin-bottom: 3%;}
+#formtable{border: none !important;
+           width: 100%;
+          }
+
+#formtable td {border: none;
+               height: 20px;
+               width: 50%;}
+
+
+.buy1 {margin-bottom: 30px;}
+.buy1  input {margin-left: 5%;}
+.buy1  .labeln1{font-size: 1.2em;
+                 line-height: 2;}
+
+
+
+
+.checkboxb {font-size: 1.3em;
+            padding-left: 40%;
+            line-height: 1.6;
+                 }
+
+.buybutton{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+           font-weight: 300;
+           margin-top: 3%;
+           margin-left: 5%;
+           margin-bottom: 3%;
+           width: auto;
+           font-size: 1.7em;
+           color:  rgba(23, 9, 100, 0.767);
+           text-decoration: none;
+           padding: 4px 15px;
+           background-color:rgb(37, 127, 163);
+           border: none;
+           border-radius: 50px;
+           cursor: pointer;
+           transition: 0.3s ease ;}
+
+           .buybutton:hover{
+            background-color: white;
+            color: rgb(37, 127, 163);
+        }
+
+
+
+
+#ofavourite{margin-left: 35%;}
+#CustomO{margin-left: 35%;}
+
+.radiob2{border: none !important;
+         width: 90%;
+         }
+
+.radiob2 td{border: none;
+            width: 30%;
+            padding-left: 5%;}
+
+.radiob2 td label{font-size: 1.1em;}
+
+       
+       
+
+
+.B2 > .Current {width: 100%;
+                height: 20%;}
+
+
+.B2 table{width: 100%;}
+ 
+.B2 table th{height: 20px;
+             color: rgb(176, 210, 230);
+             background-color: rgb(8, 32, 54);
+             font-weight: 500;
+             font-size: 1.4em;}
+
+.B2 table td{color: steelblue;
+             font-weight: 400;
+             font-size: 1.2em;
+             background-color: rgb(45, 46, 73);}
+
+#currentproduct{display: none;
+                text-align: center;}
+#currentsize{display: none;
+             text-align: center;}
+#currentpack{display: none;
+             text-align: center;}
+ #currentextras{display: none;}
+
+
+
+
+
+#overalltable{margin-bottom: 5%;}
+
+
+#fullpay{display: inline;
+         display: inline;
+         position: relative;
+         top: 30px;
+         margin-left: 30%;
+         font-weight: bolder;
+         font-size: 1.5em;
+         color: rgb(215, 212, 230);}
+#currentpay{display: inline;
+            position: relative;
+            top: 30px;
+            margin-left: 30%;
+            font-weight: bolder;
+            font-size: 1.5em;
+            color: rgb(215, 212, 230);}
+
+
+#loyalb{display: inline;
+        margin-left: 35%;}
+ 
+.butbuttonsdiv{display: inline;
+               }
+.butbuttonsdiv > .buybutton{margin-left: 15%;
+                            }
+
+#placeorder{margin-top: 10%;
+            margin-left: 35%;}
+
+
+
+
+/*-----------------------------------------------Desktop footer---------------------------------------------------------------*/
+.footer{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 300px 50px;
+}
+.fitem1{background-color:rgb(15, 31, 69);}
+.social{width: 50%;
+        height: auto;
+        margin-left: 20%;
+        margin-top: 5%;}
+
+.fitem2{background-color: rgb(15, 31, 69);}
+.fitem2 > span{font-size: 2vw;
+               color: steelblue; 
+                text-transform: uppercase;
+                text-align: center;
+                margin-left: 18%;
+                margin-top: 10%;}
+
+.fitem2 > a >img{margin-left: 4%;
+              padding-top: 5%;
+              width: 20%;}    
+           
+
+
+
+.fitem3{background-color:rgb(15, 31, 69)}
+  
+.fitem3 > img{padding-left: 10%;
+              width: 80%;
+              height: auto;
+              padding-top: 5%;} 
+
+.fitem3 > .nn{color: steelblue;
+              font-size: 1vw;
+             padding-left: 20px; }
+
+.fitem4{  padding-left: 15%;
+          font-size: 1.3em;
+          color: steelblue;
+          grid-column-start: 1;                                               /* History of Sri Lankan Tea */  
+          grid-column-end: 4;
+          background-color:rgb(15, 31, 69);}
+
+}

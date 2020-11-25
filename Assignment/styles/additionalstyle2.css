@@ -1,0 +1,435 @@
+.desknav{display: none;}
+
+.sec1{width: 100%;
+      height: 40%;
+      background-color:  rgb(15, 31, 69)}
+
+.msitelogo{ width: 30%;
+            height: auto;
+            margin-left: 35%;
+            margin-right: 35%;}
+
+.sec2{ display: grid;
+       grid-template-columns: auto auto auto auto auto;
+       grid-template-rows: auto;
+            }
+.mnavbuttons1{background-color:  rgb(138, 86, 197);
+               border: 2px rgb(39, 87, 184) solid;}
+
+
+.mnavbuttons1  .navimg{width: auto;
+                       height: auto;}
+
+.container6{background:url(../images/goodteabg1.webp);
+            background-size: 100% auto; 
+            background-repeat: repeat;  
+            padding: 10px; 
+            border-left: rgb(81, 0, 105) solid 5px;
+            border-right: rgb(81, 0, 105) solid 5px; }
+
+ .container6 > div{ margin: 10px;
+                    background:  linear-gradient(to right, rgba(60, 14, 119, 0.7),rgba(117, 149, 238, 0.4), rgba(52, 17, 61, 0.7));
+                    border: solid rgb(68, 7, 60) 5px;
+                    color: rgb(97, 1, 84);
+                    border-radius: 15px 70px; 
+                    padding-left: 10%;
+                    padding-right: 10%;}
+
+.dimg{display: none;}
+.mimg{display: block;}
+
+.mimg{width: 80%;
+      height: auto;
+      margin-left: 10%;}
+
+
+.g5 > img{width: 80%;
+          height: auto;
+          margin-left: 10%;}
+
+ h1{ font-size: 1.5em;
+     text-align: center;
+     font-family: sans-serif;
+     margin-bottom: 5px;}
+
+h2{font-size:  1.3em;
+   font-family: fantasy;
+    text-align: left;}
+
+p{ text-indent: 10px;
+   font-size: 1em;
+   padding-top: 10px;
+   text-align: justify;
+   line-height: 1.4;
+   }
+
+.overlay1{display: none;}
+
+
+.overlay2{display: none;}
+
+
+   
+.footer{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+}
+.fitem1{background-color:rgb(15, 31, 69);}
+.social{width: 35%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 2%;}
+
+.fitem2{background-color: rgb(15, 31, 69);}
+.fitem2 > span{font-size: 3vw;
+               color: steelblue; 
+               text-transform: uppercase;
+               margin-left: 20%;
+               margin-top: 2%;}
+        
+.fitem2 > a >img{margin-left: 4%;
+                  padding-top: 5%;
+                  width: 20%;}    
+                   
+.fitem3{background-color:rgb(15, 31, 69)}
+  
+.fitem3 > img{padding-left: 10%;
+              width: 20%; 
+              height: auto;
+              margin-top: 5%;} 
+                  
+ .fitem3 > .nn{color: steelblue;
+               font-size: 2vw;
+               float: right;
+               margin-right: 20%;}
+
+ .fitem4{  padding-left: 15%;
+           font-size: 2vw;
+           color: steelblue;
+           background-color:rgb(15, 31, 69);}  
+      
+
+
+
+ /*----------------------------------------------desktop designs-----------------------------------------------------------*/
+
+
+
+  @media only screen and (min-width: 1150px){   
+
+
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+       /*-----------------------------------Navigation bar in desktop--------------------------------------------------*/
+
+.mobilenav {display: none;}
+.desknav {                                                 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    background-color: rgb(15, 31, 69);
+    flex-wrap: nowrap;
+}
+.navigation_links li, a, button {                        /* navigation link links, button */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: steelblue;
+    text-decoration: none;}
+
+
+.navigation_links{
+    list-style: none;
+}
+.navigation_links li{
+   display: inline-block;
+   padding: 0px 30px;
+     transition: 0.3s ease ;
+}
+
+.navigation_links li a {
+    transition: 0.3s ease ;
+}
+.navigation_links li a:hover {
+    color: white;
+    background-color: rgb(15, 31, 69);
+}
+
+button{font-family: 'Times New Roman', Times, serif;      /*buy now button*/ 
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color:rgb(37, 127, 163);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease ;
+}
+button:hover{
+    background-color: white;
+    color: rgb(37, 127, 163);
+}
+
+   * { 
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+               /*-----------------------------------Navigation bar in desktop--------------------------------------------------*/
+        
+        .mobilenav {display: none;}
+        .desknav {                                                 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 5%;
+            background-color: rgb(15, 31, 69);
+            flex-wrap: nowrap;
+        }
+        .navigation_links li, a, button {                        /* navigation link links, button */
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            font-size: 25px;
+            color: steelblue;
+            text-decoration: none;}
+        
+        
+        .navigation_links{
+            list-style: none;
+        }
+        .navigation_links li{
+           display: inline-block;
+           padding: 0px 30px;
+             transition: 0.3s ease ;
+        }
+        
+        .navigation_links li a {
+            transition: 0.3s ease ;
+        }
+        .navigation_links li a:hover {
+            color: white;
+            background-color: rgb(15, 31, 69);
+        }
+        
+        #buynowbutton{font-family: 'Times New Roman', Times, serif;      /*buy now button*/ 
+            font-weight: 500;
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            padding: 9px 25px;
+            background-color:rgb(37, 127, 163);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.3s ease ;
+        }
+        #buynowbutton:hover{
+            background-color: white;
+            color: rgb(37, 127, 163);
+        }
+
+    /*----------------------------------------------page content-----------------------------------------------------*/
+ 
+    .container6{                                            
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
+        grid-gap: 10px;
+        background: url(../images/goodteabg1.webp);
+        background-size: 100% auto;
+        background-repeat: repeat;  
+        padding: 40px;  }
+    
+      .container6 > div{                                      /*Homepage content*/
+            margin: 10px;
+            background: linear-gradient(to right, rgba(60, 14, 119, 0.7),rgba(117, 149, 238, 0.4), rgba(52, 17, 61, 0.7));
+            border: solid rgb(68, 7, 60) 5px;
+            border-radius: 70px 15px; 
+            padding-left: 80px;
+            padding-right: 80px;}
+
+     h1{ font-size: 3em;
+         text-align: center;
+         margin-bottom: 20px;}
+          
+     h2{ font-size: 2em;
+         text-align: center;
+         margin-bottom: 20px;}
+          
+      p{  text-indent: 50px;
+        font-size: 1.5em;
+        padding-top: 30px;
+        text-align: justify;
+        line-height: 1.6;}
+    
+     .mimg{display: none;}
+     .dimg{display: block;}
+ 
+    .g1 > p> img {width: 40%;
+                  height: auto;
+                  float: right;
+                  border-radius: 10px;
+                  margin: 10px;}
+                  
+  .g3 > p> img {width: 40%;
+                height: auto;
+                border-radius: 10px;
+                float: right;
+                margin: 10px;}
+
+ .g4 > p> img {width: 40%;
+               height: auto;
+               border-radius: 10px;
+               float: left;
+               margin: 10px;}
+
+
+  .g5 >  img    {width: 35%;
+                margin-left: 10%;
+                border-radius: 10px;
+                height: auto;
+                }
+   
+    .container {margin: 10px;
+                position: relative;
+                float: right;
+                width: 40%;
+                }
+
+.dimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.overlay1{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  right: 0;
+  background-color: rgba(81, 0, 105, 0.8);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  border-radius: 10px;
+}
+
+.container:hover .overlay1{
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+.container2{margin: 10px;
+    position: relative;
+    float: left;
+    width: 40%;
+    }
+  
+  
+  .overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    display: block;
+    right: 0;
+    background-color: rgba(81, 0, 105, 0.8);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 10px;
+  }
+  
+  .container2:hover .overlay2 {
+    width: 100%;
+    left: 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          /*---------------------------------------desktop footer-----------------------------------------------------*/
+
+    .footerm{display: none;}
+    .footer{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 300px 50px;
+    }
+    .fitem1{background-color:rgb(15, 31, 69);}
+    .social{width: 50%;
+            margin-left: 20%;
+            margin-top: 5%;}
+    
+    .fitem2{background-color: rgb(15, 31, 69);}
+    .fitem2 > span{font-size: 2vw;
+                   color: steelblue; 
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin-left: 18%;
+                    margin-top: 10%;}
+    
+    .fitem2 > a >img{margin-left: 4%;
+                  padding-top: 5%;
+                  width: 20%;}    
+               
+    
+    
+    
+    .fitem3{background-color:rgb(15, 31, 69)}
+      
+    .fitem3 > img{padding-left: 10%;
+                  width: 80%;
+                  height: auto;
+                  padding-top: 5%;} 
+    
+    .fitem3 > .nn{color: steelblue;
+                  font-size: 1vw;
+                 padding-left: 20px; }
+    
+    .fitem4{  padding-left: 15%;
+              font-size: 1.3em;
+              color: steelblue;
+              grid-column-start: 1;                                               /* History of Sri Lankan Tea */  
+              grid-column-end: 4;
+              background-color:rgb(15, 31, 69);}
+    
+    
+    
+    }
+    
