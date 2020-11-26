@@ -323,8 +323,8 @@ function placeorderfunction(){  //this function will work if the user clicks pla
           Currentpack.style.display = "none";
           Currentextras.style.display = "none";
           overallcost = 0;                            //setting overall cost to 0
-          overall_pay.innerHTML = "Overall Cost(LKR) = 0";   //printing in the interface
-          current_pay.innerHTML = "Current Cost(LKR) = 0";   //printing in the interface
+          overall_pay.innerHTML = "Overall Cost(LKR) : 0";   //printing in the interface
+          current_pay.innerHTML = "Current Cost(LKR) : 0";   //printing in the interface
           var j = parseInt(localStorage.getItem("loyaltypoint")); //getting loyalty points from the local storage
           j+=loyalty_points;                                      //adding newly aquired loyalty points if it exists
           localStorage.setItem("loyaltypoint", j);                //setting new loyalty points in the local storage
@@ -418,8 +418,8 @@ return alert("Select a Manufacturer");  //this will run if user clicks add to fa
                           Currentextras.style.display = "none";
                           let v = parseInt(localStorage.getItem("FavouriteCost")); //getting favourite cost
                           overallcost += v; //adding favourite cost to overall cost
-                          overall_pay.innerHTML = "Overall Cost :"+ overallcost; //printing overall cost
-                          current_pay.innerHTML = "Current Cost : 0"; //making current order cost to 0
+                          overall_pay.innerHTML = "Overall Cost(LKR) :"+ overallcost; //printing overall cost
+                          current_pay.innerHTML = "Current Cost(LKR) : 0"; //making current order cost to 0
                           b = false;  //making this false incase if the user wants to add his/her favourite order to overall order again
                           a = true; //making this true so user can place their order if they want
                           order_counter++; //incrementing order count
