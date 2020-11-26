@@ -323,8 +323,8 @@ function placeorderfunction(){  //this function will work if the user clicks pla
           Currentpack.style.display = "none";
           Currentextras.style.display = "none";
           overallcost = 0;                            //setting overall cost to 0
-          overall_pay.innerHTML = "Total Cost = 0";   //printing in the interface
-          current_pay.innerHTML = "Total Cost = 0";   //printing in the interface
+          overall_pay.innerHTML = "Overall Cost(LKR) = 0";   //printing in the interface
+          current_pay.innerHTML = "Current Cost(LKR) = 0";   //printing in the interface
           var j = parseInt(localStorage.getItem("loyaltypoint")); //getting loyalty points from the local storage
           j+=loyalty_points;                                      //adding newly aquired loyalty points if it exists
           localStorage.setItem("loyaltypoint", j);                //setting new loyalty points in the local storage
